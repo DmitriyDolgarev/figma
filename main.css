@@ -1,0 +1,1495 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.header {
+    /* Menu */
+
+    width: 48px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.8286px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+
+    color: #606060;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navigation {
+    /* nav */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 53.49px;
+}
+
+.menu {
+    margin-top: 48px;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.logoText {
+    /* eatly */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.1758px;
+    line-height: 130%;
+    /* identical to box height, or 28px */
+    display: flex;
+    align-items: center;
+    color: #6C5FBC;
+    margin-right: 103px;
+}
+
+.logo {
+    /* Logo */
+    width: 45.94px;
+    height: 42.31px;
+}
+
+.image {
+    height: 100%;
+}
+
+.navButtons {
+    /* buttons */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8.91px;
+}
+
+.loginButton {
+    /* button/primary */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 17.8286px 26.7429px;
+    gap: 11.14px;
+
+    width: 102.49px;
+    height: 62.66px;
+    border-radius: 17.8286px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.loginText {
+    /* Login */
+
+    width: 49px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.8286px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+
+    color: #606060;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.signUpButton {
+    /* button/primary */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 17.8286px 26.7429px;
+    gap: 11.14px;
+    margin-left: 9px;
+
+    /*width: 121.49px;
+    height: 62.66px;*/
+
+    background: #6C5FBC;
+    border: 0.1px solid #6C5FBC;
+    border-radius: 17.8286px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.signUpText{
+    /* Sign up */
+
+    width: 68px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.8286px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    color: #F9F9F9;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.line{
+    /* Line 517 */
+    margin-top: 25px;
+    margin-left: 96px;
+    margin-right: 96px;
+    height: 0px;
+    border: 1px solid #CBCBCB;
+}
+.pair{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 49px;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-bottom: 85px;
+}
+.heroText{
+    width: 568px;
+    height: 492px;
+    margin-top: 70px;
+    margin-right: 37px;
+}
+.heroOver{
+    /* Over 1000 */
+    display: flex;
+    flex-direction: row;
+    width: 231px;
+    height: 18px;
+    /*left: 99px;
+    top: 254px;*/
+}
+.overLine{
+    /* Line 203 */
+    width: 54px;
+    height: 0px;
+    margin-top: 8px;
+    margin-right: 20px;
+    /*left: 99px;*/
+    opacity: 0.2;
+    border: 1px solid #201F1F;
+}
+.overText{
+    /* OVER 1000 USERS */
+    width: 180px;
+    height: 18px;
+    /*top: 254px;*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    letter-spacing: 2px;
+    color: rgba(32, 31, 31, 0.2);
+}
+.heroContent{
+    /* Content */
+    width: 567px;
+    height: 280px;
+    margin-bottom: 53px;
+    /*left: 97px;*/
+}
+.contentMainText{
+    /* Enjoy Foods All Over The World */
+    /*width: 567px;
+    height: 180px;
+    /*left: 97px;
+    top: 290px;*/
+    margin-bottom: 16px ;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 120%;
+    /* or 90px */
+    letter-spacing: -3px;
+
+    color: #201F1F;
+}
+.contentHelpText{
+    /* EatLy help you set saving goals, earn cash back offers, Go to disclaimer for more det
+    ails and get paychecks up to two days early. Get a $20 bonus. */
+    width: 499px;
+    height: 84px;
+    /*left: 99px;*/
+
+    /* Inter/Regular/18 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: justify;
+    color: #676767;
+    opacity: 0.7;
+}
+.heroButtons{
+    /* Hero Buttons */
+    width: 290px;
+    height: 59px;
+    margin-bottom: 33px;
+    /*left: 96px;*/
+}
+.getStartedButton{
+    width: 156px;
+    height: 59px;
+    border-radius: 12px;
+    background-color: #6C5FBC;
+    border: 0.1px solid #6C5FBC;
+}
+.recText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2706px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    /* Get Started */
+    /* identical to box height, or 150% */
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.goProButton{
+    /* Button */
+
+    width: 110px;
+    height: 59px;
+    margin-left: 18px;
+    border: #6C5FBC;
+    /* Rectangle 30 */
+
+    box-sizing: border-box;
+
+    border: 1.5px solid #6C5FBC;
+    border-radius: 12.4115px;
+}
+.goProText{
+    /* Go Pro */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2706px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #6C5FBC;
+}
+.trustReviews{
+    width: 301px;
+    height: 31px;
+}
+.hero{
+    width: 680.48px;
+    height: 607px;
+}
+.feautures{
+    /* Features */
+    width: 100%;
+    /*background-color: #5C4EAE;*/
+    background-image: url(images/BG.svg);
+    background-size: cover;
+    background-position: center;
+    /*height: 220.5px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.bg{
+    /* BG */
+    position: absolute;
+    width: 100%;
+    height: 220.5px;
+    /*top: 876px;*/
+}
+.list{
+    /* List */
+    width: 942px;
+    height: 123px;
+}
+.firstCol{
+    width: 263.7px;
+    /*height: 108.8px;*/
+    margin-top: 57px;
+    margin-bottom: 55px;
+}
+.colHeader{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.2px;
+    line-height: 54px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    margin-bottom: 11px;
+
+    /* base/white */
+    color: #FFFFFF;
+}
+.colDescription{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4px;
+    line-height: 22px;
+    /* or 150% */
+    text-align: center;
+    color: #C5BFED;
+}
+.verticalLine{
+    border-left: 1px solid rgba(197, 197, 197, 0.375);
+    border-right: 1px solid rgba(197, 197, 197, 0.375);
+}
+.downloading{
+    /* Download App */
+    /*width: 1262px;*/
+    width: 1381px;
+    height: 745px;
+    margin-top: 104px;
+    margin-left: 97px;
+    margin-right: 81px;
+}
+.mobile{
+    /* Mobile */
+    width: 371.46px;
+    height: 625px;
+    margin-left: 111px;
+}
+.mobileText{
+    /* Side Text */
+    width: 560px;
+    height: 555.97px;
+    margin-top: 91px;
+    margin-left: 220px;
+}
+.mobileHeader{
+    /* Premium QualityFor Your Health */
+    width: 559.71px;
+    height: 117px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.923px;
+    line-height: 58px;
+    /* or 114% */
+    text-transform: capitalize;
+    /* gray/900 */
+    color: #18181B;
+}
+.mobileDescription{
+    /* Premium quality food is made with ingredients that are packed with essential vitamins, minerals. */
+    width: 547.77px;
+    height: 61px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.335px;
+    line-height: 31px;
+    /* or 150% */
+    color: #676767;
+}
+.firstLi{
+    margin-top: 63px;
+    margin-bottom: 28px;
+}
+.learnMore{
+    width: 334.76px;
+    height: 164.97px;
+    margin-top: 61px;
+}
+.downloadButton{
+    /* Rectangle 681 */
+    width: 186px;
+    height: 63px;
+    border-radius: 12px;
+    background-color: #6C5FBC;
+    border: 0.1px solid #6C5FBC;
+    /*justify-content: center;*/
+}
+.downloadText{
+    /* Text: */
+    width: 92px;
+    height: 23px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.0619px;
+    line-height: 23px;
+    /* identical to box height, or 125% */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.arrow{
+    width: 27.09px;
+    height: 27.09px;
+    margin-top: 18px;
+}
+.vector{
+    /* Vector 14 */
+
+    /*position: absolute;*/
+    width: 87.01px;
+    height: 154.49px;
+    margin-left: 160px;
+    /*top: 1682px;
+    
+    border: 2.65px solid #6C5FBC;*/
+    /*transform: rotate(50.89deg);*/
+}
+.downloadLine{
+    /* Line 518 */
+    /*width: 1300px;*/
+    height: 0px;
+    /* Grey - Text */
+    border: 1px solid #CBCBCB;
+}
+.topRestaurants{
+    /* Our Top Restaurants */
+    /*width: 1248.95px;
+    width: 1381px;
+    height: 641px;*/
+    margin-top: 100px;
+    margin-left: 96px;
+    margin-right: 96px;
+
+    /* Line 519 */
+    /* Grey - Text */
+    border-bottom: 1px solid #CBCBCB;
+}
+.restaurantsHead{
+    /* Most Popular 
+    width: 470px;*/
+    height: 26px;
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 26px;
+    /* identical to box height, or 57% */
+    color: #323142;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.restaurants{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 86px;
+    margin-bottom: 66px;
+}
+.restBlock{
+    /* Resturent 01 */
+    width: 395.99px;
+    height: 297.6px;
+    /* Pure White */
+    background: #FFFFFF;
+    /* Colors/Gray/Gray 2 */
+    border: 1.25095px solid #F4F4F6;
+    box-shadow: 5.94564px 71.3477px 35.6738px rgba(229, 229, 229, 0.7);
+    border-radius: 30.0228px;
+}
+.srRestBlock{
+    margin-left: 31px;
+    margin-right: 31px;
+}
+.restImg{
+    /* Resturent Image */
+    width: 100%;
+    height: 176.13px;
+    border-radius: 30.0228px 30.0228px 0px 0px;
+    overflow: hidden;
+    /* Image 
+    background: url(hayley-ryczek-HQ22vVXhWcc-unsplash.jpg);
+    transform: rotate(-90deg);*/
+}
+.firstRest{
+    background-image: url(images/firstRest.png);
+}
+.secondrest{
+    background-image: url(images/secRest.png);
+}
+.thirdRest{
+    background-image: url(images/thirdRest.png);
+}
+.sr{
+    background: #F7EDD0;
+    color: #DAA31A;
+}
+.dang{
+    background: #F7C5BA;
+    color: #FB471D;
+}
+.supreme{
+    color: #309D5B;
+    background: #33ac645d;
+}
+.highlight{
+    /* Highlight */
+    width: 65.88px;
+    height: 24.84px;
+    border-radius: 5.3997px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 32px;
+}
+.highlightText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.7757px;
+    line-height: 19px;
+}
+.restInfo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 18px;
+}
+.infoText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 34px;
+}
+.restHeader{
+    /* The Chicken King */
+    width: 227px;
+    height: 42px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.7865px;
+    line-height: 42px;
+    /* identical to box height, or 162% */
+    /* BLACK */
+    color: #323142;
+}
+.restDescription{
+    display: flex;
+    flex-direction: row;
+}
+.restDescText{
+    /* 24min • */
+    /*width: 72.52px;
+    height: 25.79px;*/
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.3398px;
+    line-height: 26px;
+    /* identical to box height, or 133% */
+    /* Grey */
+    color: #8E97A6;
+}
+.star{
+    /* Star */
+    width: 25.79px;
+    height: 25.79px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.bookmark{
+    /* Bookmark */
+    width: 40.09px;
+    height: 40.09px;
+    margin-left: 68px;
+    margin-top: 31px;
+    border: 0px #FFFFFF solid;
+    background-color: #FFFFFF;
+}
+.viewAll{
+    /* View All 
+    width: 112.8px;
+    height: 46px;*/
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 120px;
+    margin-right: 14px;
+}
+.viewBlock{
+    /*width: 112.8px;*/
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+}
+.viewText{
+    /* Result */
+    width: 77px;
+    height: 46px;
+    margin-right: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height, or 226% */
+    letter-spacing: -0.1px;
+    /* Dark Grey */
+    color: #ACADB9;
+}
+.viewVector{
+    width: 16px;
+    margin-top: 8px;
+}
+.vectorImage{
+    width: 100%;
+}
+.dishes{
+    /* Our Top Dishes 
+    height: 725px;*/
+    margin-top: 100px;
+    margin-left: 97px;
+    margin-right: 97px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.topDishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 76px;
+    margin-bottom: 65px;
+}
+.foodBlock{
+    /* Food Card 01 */
+    width: 224.63px;
+    height: 390.36px;
+    /* Pure White */
+    background: #FFFFFF;
+    /* Colors/Gray/Gray 2 */
+    border: 1.44089px solid #F4F4F6;
+    box-shadow: 6.84842px 82.181px 41.0905px rgba(229, 229, 229, 0.7);
+    border-radius: 34.5814px;
+}
+.foodIMG{
+    /* Food Image */
+    width: 201.14px;
+    height: 208.19px;
+    margin-top: 26px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.firstFoodIMG{
+    background-image: url(images/firstFood.svg);
+}
+.secFoodIMG{
+    background-image: url(images/secFood.svg);
+}
+.thirdFoodIMG{
+    background-image: url(images/thirdFood.svg);
+}
+.fourthFoodIMG{
+    background-image: url(images/firstFood.svg);
+}
+.fivesFoodIMG{
+    background-image: url(images/firstFood.svg);
+}
+.heart{
+    /* Heart */
+    width: 21.95px;
+    height: 18.19px;
+}
+.foodHighlight{
+    /* Highlight */
+    width: 58.9px;
+    height: 22.21px;
+    /* BG */
+    border-radius: 4.82757px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.422px;
+    line-height: 17px;
+}
+.foodInfo{
+    /* Info */
+    margin-left: 23px;
+}
+.foodHeader{
+    /* Chicken Hell */
+    width: 146.56px;
+    height: 38.35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.0542px;
+    line-height: 37px;
+    /* or 163% */
+    /* BLACK */
+    color: #323142;
+}
+.foodText{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.2907px;
+    line-height: 23px;
+    /* or 133% */
+    /* Grey */
+    color: #8E97A6;
+    display: flex;
+    align-items: center;
+}
+.foodStar{
+    /* Star */
+    width: 23.05px;
+    height: 23.05px;
+    margin-left: 6px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+}
+.price{
+    /* Price & Cart 
+    width: 174.18px;
+    height: 40.34px;*/
+    margin-top: 13px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    width: 115.27px;
+    height: 40.34px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.936px;
+    line-height: 40px;
+    /* identical to box height, or 156% */
+    /* BLACK */
+    color: #323142;
+}
+.cents{
+    color: #8E97A6;
+    font-size: 20px;
+    padding-top: 2.8px;
+}
+.addButton{
+    /* Add */
+    width: 43.83px;
+    height: 39.72px;
+    margin-left: 50px;
+    justify-content: flex-end;
+    border: 0px #FFFFFF solid;
+    background-color: #FFFFFF;
+}
+.controlPurchases{
+    /* Control Purchase  */
+    margin-top: 100px;
+    margin-left: 95px;
+    margin-right: 95px;
+    border-bottom: 1px solid #CBCBCB;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.purchasesText{
+    /* Purchase Text */
+    width: 570.71px;
+    margin-bottom: 138px;
+}
+.purchasesHeader{
+    /* Control PurchasesVia Dashboard */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.923px;
+    line-height: 58px;
+    /* or 114% */
+    text-transform: capitalize;
+    /* gray/900 */
+    color: #18181B;
+
+    margin-left: 11px;
+    margin-bottom: 48px;
+}
+.purchaseBlock{
+    width: 345.17px;
+    height: 88.3px;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    border: 1.44089px solid #F4F4F6;
+    box-shadow: 10.84842px 8.181px 21.0905px rgba(167, 167, 167, 0.649);
+}
+.purchaseIMG{
+    width: 77.26px;
+    height: 80.08px;
+    margin: 4px 19px 4px 17px;
+}
+.purchaseBlockText{
+    margin-top: 17px;
+    margin-bottom: 23px;
+    margin-right: 42px;
+}
+.secPurchaseBolck{
+    margin-right: 61px;
+}
+.thirdPurchaseBolck{
+    margin-right: 24px;
+}
+.purchaseBlockHeader{
+    /*width: 121px;*/
+    height: 27px;
+    margin-bottom: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.0646px;
+    line-height: 140%;
+    /* identical to box height, or 27px */
+
+    /* Black Color */
+    color: #323142;
+}
+.purchaseBlockDescription{
+    /*width: 73px;*/
+    height: 17px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0408px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+
+    /* Black Color */
+    color: #323142;
+}
+.purchaseBlockTime{
+    /*width: 51px;*/
+    height: 18px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.0442px;
+    line-height: 140%;
+    /* or 18px */
+
+    /* Dark Grey */
+    color: #ACADB9;
+
+    margin-top: 60px;
+    margin-right: 17px;
+    margin-bottom: 10px;
+}
+.purchaseIllustration{
+    /*width: 534px;
+    height: 466.46px;*/
+    /* background 
+    box-sizing: border-box;*/
+    background: #FFFFFF;
+    /* Greyscale / 200 */
+    border: 1.57059px solid #EDF2F7;
+    border-radius: 25.1294px;
+    margin-bottom: 134px;
+    box-shadow: 10.84842px 68.181px 52.0905px rgba(167, 167, 167, 0.649);
+}
+.illustrationHead{
+    display: flex;
+    flex-direction: row;
+    margin: 37px 37px 37px 41px;
+}
+.illistrationHeader{
+    /* Purchases 
+    width: 150px;*/
+    height: 38px;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    margin-right: 130px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28.2706px;
+    line-height: 135%;
+    /* or 38px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.314118px;
+
+    /* Greyscale / 900 */
+    color: #1A202C;
+}
+.selector{
+    /* date */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12.5647px 18.8471px;
+    gap: 6.28px;
+
+    width: 175.91px;
+    height: 53.4px;
+    /* Greyscale / 50 */
+    background: #FAFAFA;
+    border-radius: 12.5647px;
+}
+.selectorText{
+    /* This month 
+    width: 107px;*/
+    height: 28px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.8471px;
+    line-height: 150%;
+    /* or 28px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.628235px;
+    /* Greyscale / 900 */
+    color: #1A202C;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.chevron{
+    /* chevron-down */
+    width: 25.13px;
+    height: 25.13px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 37px;
+    margin-right: 37px;
+    margin-bottom: 46px;
+}
+.card{
+    /* card 
+    box-sizing: border-box;*/
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25.1294px;
+    gap: 20.42px;
+
+    /*width: 458.61px;
+    height: 135.07px;*/
+    /* Greyscale / 200 */
+    border: 1.57059px solid #EDF2F7;
+    border-radius: 18.8471px;
+}
+.firstCard{
+    margin-bottom: 22px;
+}
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+}
+.cardIcon{
+    /* icon */
+    width: 50.26px;
+    height: 50.26px;
+    background: #F4F0FF;
+    border-radius: 1570.59px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.cardText{
+    /* text */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3.14px;
+
+    /*width: 138px;*/
+    height: 55.14px;
+    margin-left: 19px;
+    margin-right: 106px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.cardtxtHeader{
+    /* Expense 
+    width: 83px;*/
+    height: 28px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.8471px;
+    line-height: 150%;
+    /* or 28px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.628235px;
+
+    /* Greyscale / 900 */
+    color: #1A202C;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.cardtxtDescription{
+    /* Increased By 10% 
+    width: 138px;*/
+    height: 24px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.7059px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.628235px;
+    /* Greyscale/500 */
+    color: #A0AEC0;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.cardPrice{
+    /* text 
+    margin: 0 auto;
+    width: 95px;*/
+    height: 33px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.9882px;
+    line-height: 150%;
+    /* identical to box height, or 33px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.314118px;
+    /* Greyscale / 900 */
+    color: #1A202C;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.cardLine{
+    /* divider 
+    width: 408.35px;*/
+    height: 9.42px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.reviews{
+    margin-top: 116px;
+    margin-bottom: 35px;
+}
+.customersReviews{
+    margin-left: 84px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end   ;
+}
+.cReview{
+    /* Review 01 
+    width: 574px;
+    height: 381px;*/
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 20.8935px;
+    box-shadow: 10.84842px 68.181px 52.0905px rgba(167, 167, 167, 0.649);
+    margin-right: 27px;
+}
+.reviewHead{
+    margin: 38px 49px 32px 43px;
+    display: flex;
+    flex-direction: row;
+}
+.avatar{
+    width: 71.04px;
+    height: 71.04px;
+    margin-right: 21px;
+}
+.headtext{
+    /* Text 
+    width: 130px;
+    height: 59.38px;*/
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 155px;
+}
+.reviewHeader{
+    /* Agueda Scoggins 
+    width: 130px;*/
+    height: 32px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8935px;
+    line-height: 31px;
+    /* identical to box height, or 150% */
+    color: #030314;
+}
+.reviewDescription{
+    /* one year with us  
+    width: 121px;*/
+    height: 27px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.7148px;
+    line-height: 26px;
+    /* identical to box height, or 156% */
+    color: #5E5D5D;
+}
+.reviewText{
+    /* Review 
+    width: 442px;
+    height: 105px;*/
+    margin: 0px 43px 39px 43px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 145% */
+    text-align: justify;
+    color: #636363;
+}
+.stars{
+    width: 138px;
+    height: 23px;
+    margin-left: 43px;
+    margin-bottom: 38px;
+}
+.otherReviews{
+    display: flex;
+    flex-direction: row;
+}
+.otherReview{
+    /*width: 528px;*/
+    height: 239px;
+    background: #FFFFFF;
+    border-radius: 20.8935px;
+    margin-left: 19px;
+    margin-right: 27px;
+    margin-bottom: 173px;
+}
+.otherText{
+    margin-top: 38px;
+    color: rgba(150, 150, 150, 1);
+}
+.rightReview{
+    /*width: 100px;*/
+    height: 239px;
+    background: #FFFFFF;
+    border-top-left-radius: 20.8935px;
+    border-bottom-left-radius: 20.8935px;
+    margin-left: auto;
+    overflow: hidden;
+}
+.rightReviewText{
+    margin-top: 43px;
+    margin-left: 43px;
+    margin-bottom: 39px;
+}
+.reviewsGroup{
+    display: flex;
+    flex-direction: column;
+}
+.divider{
+    margin-left: 19px;
+}
+.promo{
+    margin-top: 182px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.promoBlock{
+    width: 1214px;
+    height: 280px;
+    /*background: #5C4EAE;*/
+    border-radius: 30px;
+    /*background: url(images/promoBackgrnd.svg);*/
+    background: url(images/promoBackgrnd.svg), #5C4EAE;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: row;
+}
+.promoInnerBlock{
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+    margin-left: 66px;
+    margin-bottom: 61px;
+}
+.promoText{
+    width: 303px;
+    height: 105px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    /* identical to box height */
+    /*text-align: center;
+    color: #FFFFFF;*/
+    color: #d0cedc;
+}
+.emailInserting{
+    /* Enter Email */
+    width: 439.73px;
+    height: 68px;
+    margin-top: 9px;
+    /* Rectangle 29 
+    background: #FFFFFF;*/
+    background: #d0cedc;
+    box-shadow: 0px 7.25333px 45.3333px rgba(0, 0, 0, 0.1);
+    border-radius: 14.2342px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.emailText{
+    /* Enter Your Email Address 
+    width: 217px;*/
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2676px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #878787;
+
+    margin-left: 22px;
+}
+.promoButton{
+    /* Group 427320192 */
+    width: 132.37px;
+    height: 53.44px;
+    /* Rectangle 30 */
+    background: #6C5FBC;
+    border-radius: 11.2531px;
+    margin-left: auto;
+    margin-right: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.752px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /*color: #F7F8FA;*/
+    color: rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promoImage{
+    margin-right: 72px;
+    margin-left: auto;
+    margin-top: 64px;
+}
+.footer{
+    /* Footer 
+    height: 345px;*/
+    /* Rectangle 3836 */
+    background: #eaeaea;
+    margin-top: 216px;
+    padding-bottom: 81px;
+    padding-left: 73px;
+    padding-right: 64px;
+    padding-top: 68px;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.footerLogo{
+    /*width: 107.55px;
+    height: 40.53px;*/
+    display: flex;
+    flex-direction: row;
+}
+.footerLogoText{
+    font-weight: 600;
+    font-size: 28.52px;
+    line-height: 37px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.footerNav{
+    margin-top: 5px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+}
+.navElement{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.83px;
+    line-height: 26.74px;
+    /* or 150% */
+    text-transform: capitalize;
+    color: #999999;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.footerLine{
+    /* Line 517 */
+    /*width: 886.04px;*/
+    height: 0px;
+    opacity: 0.25;
+    border: 0.711111px solid #818181;
+}
+.footerLower{
+    /* Lower 
+    width: 880.09px;
+    height: 18px;*/
+    margin-top: 40px;
+    margin-right: 7px;
+    display: flex;
+    flex-direction: row;
+}
+.lowerText{
+    /*width: 204px;
+    height: 18px;*/
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    line-height: 18px;
+    /* identical to box height, or 147% */
+    color: #999999;
+}
+.lowerSocials{
+    width: 234px;
+    /*height: 15.23px;*/
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    justify-content: space-between;
+}
+.foodImage{
+    margin-left: auto;
+}
+.FooterLogo{
+    /* Logo */
+    width: 61.88px;
+    height: 57px;
+}
